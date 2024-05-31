@@ -2,6 +2,8 @@
 ![template](https://github.com/WithUS-ZB/.github/assets/148526219/cb33ffe8-996e-4642-9bfc-7fc2333d9707)
 
 
+
+
 # With Me
 
 ## 🦄 프로젝트
@@ -19,8 +21,8 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 [![시연 영상](https://img.youtube.com/vi/ORR7xq-WbJk/0.jpg)](https://youtu.be/ORR7xq-WbJk?si=I944NfFVDioyR_NQ)
 
 ## 🌏 프로젝트 배포 사이트
-
-[사이트 바로가기](https://withme-xi.vercel.app/)
+![Jun-01-2024 03-42-32](https://github.com/WithUS-ZB/.github/assets/148526219/1581ae53-f5b3-435e-ad6e-0bbeacd9b15e) <br/>
+[배포된 프로젝트 사이트 바로가기](https://withme-xi.vercel.app/)
 
 ## Git Commit Convention
 ```
