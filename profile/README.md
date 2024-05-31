@@ -4,7 +4,7 @@
 
 with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중점을 두고 있습니다.
 
-![UML](img/UML.png)
+![UML](/profile/img/UML.png)
 
 회원 관리를 통해 신원 확인을 간편하게 하고, 사용자들은 모임 및 이벤트를 개설하여 공유할 수 있습니다.
 실시간 채팅 기능을 통해 참여자들 간의 원활한 소통이 가능하며, 마이페이지에서 개인 설정과 모임 관리가 편리하게 이루어집니다.
@@ -40,47 +40,44 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 
 ## ⭐ 아키텍처
 
-![img.png](img/아키텍처.png)
+![img.png](/profile/img/아키텍처.png)
 
 ## ⭐ CI/CD
 
-![아키텍처](img/개발흐름.png)
+![아키텍처](/profile/img/CICD.png)
 
 ## ⭐ 기술 스택
 
 ### 📚 Frontend
- 
-<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/CSS--Modules-000000?style=flat&logo=cssmodules&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/JSON--server-382923?style=flat&logoColor=white"/> 
-<img src="https://img.shields.io/badge/StompJS-353E58?style=flat&logoColor=white"/> 
+
+![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white)
+![CSS Modules](https://img.shields.io/badge/CSS--Modules-000000?style=flat&logo=cssmodules&logoColor=white)
+![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![JSON server](https://img.shields.io/badge/JSON--server-382923?style=flat&logoColor=white)
+![StompJS](https://img.shields.io/badge/StompJS-353E58?style=flat&logoColor=white)
 
 ### 📚 Backend
 
-<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white"/>
-<img src="https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mockito-3FCF8E?style=flat&logoColor=white"/>
-<img src="https://img.shields.io/badge/STOMP-353E58?style=flat&logoColor=white"/> 
-<img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
-<br/>
-<img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/>
-<img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/>
-<img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/>
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white)
+![JPA(Hibernate)](https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-3FCF8E?style=flat&logoColor=white)
+![STOMP](https://img.shields.io/badge/STOMP-353E58?style=flat&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)
 
 ## ⭐ 주요 기능
 
