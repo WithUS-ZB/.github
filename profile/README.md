@@ -57,57 +57,6 @@
 
 ## ⭐ 기술 스택
 
-### 📚 Frontend
-
-<table>
-  <tr>
-    <th>분류</th>
-    <th>기술</th>
-    <th>활용</th>
-  </tr>
-  <tr>
-    <td rowspan="1">프로그래밍 언어</td>
-    <td><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="Javascript" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="5">프레임워크/라이브러리</td>
-    <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" alt="React" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white" alt="Vite" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white" alt="Axios" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/CSS--Modules-000000?style=flat&logo=cssmodules&logoColor=white" alt="CSS Modules" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/StompJS-353E58?style=flat&logoColor=white" alt="StompJS" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="1">API</td>
-    <td><img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=white" alt="Kakao" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="1">디자인 도구</td>
-    <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="1">개발 도구</td>
-    <td><img src="https://img.shields.io/badge/JSON--server-382923?style=flat&logoColor=white" alt="JSON server" /></td>
-    <td></td>
-  </tr>
-</table>
-
 ### 📚 Backend
 
 <table>
@@ -127,7 +76,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="2">프레임워크</td>
+    <td rowspan="4">프레임워크</td>
     <td><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" alt="Spring Boot" /></td>
     <td></td>
   </tr>
@@ -136,8 +85,20 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="1">ORM</td>
+    <td><img src="https://img.shields.io/badge/WebSocket-333333?style=flat&logo=WebSocket&logoColor=white" alt="WebSocket" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/SSE-333333?style=flat&logoColor=white" alt="SSE" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">ORM</td>
     <td><img src="https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white" alt="JPA(Hibernate)" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/H2-59666C?style=flat&logoColor=white" alt="H2" /></td>
     <td></td>
   </tr>
   <tr>
@@ -155,8 +116,12 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="1">인증/인가</td>
+    <td rowspan="2">인증/인가</td>
     <td><img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white" alt="OAuth2" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=JSON%20Web%20Tokens&logoColor=white" alt="JWT" /></td>
     <td></td>
   </tr>
   <tr>
@@ -178,7 +143,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="3">클라우드 서비스</td>
+    <td rowspan="4">클라우드 서비스</td>
     <td><img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white" alt="EC2" /></td>
     <td></td>
   </tr>
@@ -190,7 +155,78 @@
     <td><img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white" alt="S3" /></td>
     <td></td>
   </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Route%2053-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="Route 53" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">CI/CD</td>
+    <td><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white" alt="Jenkins" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat&logo=Oracle&logoColor=white" alt="Oracle Cloud" /></td>
+    <td></td>
+  </tr>
 </table>
+
+
+### 📚 Frontend
+
+<table>
+  <tr>
+    <th>분류</th>
+    <th>기술</th>
+    <th>활용</th>
+  </tr>
+  <tr>
+    <td rowspan="1">패키지 매니저</td>
+    <td><img src="https://img.shields.io/badge/Yarn-2C8EBB?style=flat&logo=Yarn&logoColor=white" alt="Yarn" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">프레임워크/라이브러리</td>
+    <td><img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white" alt="Vite" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/React.ts-61DAFB?style=flat&logo=React&logoColor=white" alt="React.ts" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat&logo=ReactRouter&logoColor=white" alt="React Router" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/React%20Query-FF4154?style=flat&logo=ReactQuery&logoColor=white" alt="React Query" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white" alt="Axios" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Zustand-333333?style=flat&logoColor=white" alt="Zustand" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">호스팅 서비스</td>
+    <td><img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white" alt="Vercel" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">모킹 라이브러리</td>
+    <td><img src="https://img.shields.io/badge/MSW-FF6A00?style=flat&logoColor=white" alt="MSW" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">스타일링</td>
+    <td><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=TailwindCSS&logoColor=white" alt="Tailwind CSS" /></td>
+    <td></td>
+  </tr>
+</table>
+
+
 
 ## ⭐ 기능
 | 기능        | 내용                                                           |
