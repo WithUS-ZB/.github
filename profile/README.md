@@ -104,50 +104,50 @@
 
 ## ⭐ 적용한 디자인 패턴
 ### ParticipationService 
-![ParticipationService](img/participation-service.png)
+![ParticipationService](/profile/img/participation-service.png)
 
 ### WebSocketInterceptor
-![WebSocketInterceptor.png](img/web-socket-interceptor.png)
+![WebSocketInterceptor.png](/profile/img/web-socket-interceptor.png)
 
 ## ⭐ ERD
-![ERD](img/erd.png)
+![ERD](/profile/img/erd.png)
 
 ## ⭐ 트러블슈팅
 ### Backend
 | 순번 | 담당자    | 내용                                                                                                                                                                                                                      |
 |----|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | 박지은    | [Access-Control-Expose-Headers](profile/docs/troubleshooting/backend/Access-Control-Expose-Headers.md)                                                                                                                  |
-| 2  | 박강락    | [Content-Type ‘application/octet-stream’ is not supported](profile/docs/troubleshooting/backend/Content-Type_‘application_octet-stream’_is_not_supported.md)                                                            |
-| 3  | 임국희    | [CORS 정책에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/CORS_정책에_의한_API_호출_불가_문제.md)                                                                                                                            |
-| 4  | 박강락    | [docker desktop 엘라스틱 이미지 설치 후 동작안함](profile/docs/troubleshooting/backend/docker_desktop_엘라스틱_이미지_설치_후_동작안함.md)                                                                                                          |
-| 5  | 임국희    | [Entity 수정 후 INSERT문 실행이 되지 않는 문제](profile/docs/troubleshooting/backend/Entity_수정_후_INSERT문_실행이_되지_않는_문제.md)                                                                                                            |
-| 6  | 박강락    | [Entity를 DB에서 읽어데이터, 회원 Entity 조회를 DB에 불필요한 요청](profile/docs/troubleshooting/backend/Entity를_DB에서_읽어데이터,_회원_Entity_조회를_DB에_불필요한_요청.md)                                                                                  |
-| 7  | 박강락    | [Error creating bean with name 's3Config': Injection of autowired dependencies failed 에러](profile/docs/troubleshooting/backend/Error_creating_bean_with_name's3Config_Injection_of_autowired_dependencies_failed_에러.md) |
-| 8  | 박강락    | [Error: listen EADDRINUSE: address already in use :::80](profile/docs/troubleshooting/backend/Error_listen_EADDRINUSE_address_already_in_use_80.md)                                                                     |
-| 9  | 임국희    | [Mixed Content 에러에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/Mixed_Content_에러에_의한_API_호출_불가_문제.md)                                                                                                          |
-| 10 | 박지은    | [Mockito cannot mock/spy because: final class](profile/docs/troubleshooting/backend/Mockito_cannot_mock_spy_because__final_class.md)                                                                                    |
-| 11 | 박강락    | [PuTTY로 EC2 인스턴스 접속 시도 시, No supported authentication methods available](profile/docs/troubleshooting/backend/PuTTY로_EC2_인스턴스_접속_시도_시_No_supported_authentication_methods_available.md)                                 |
-| 12 | 박강락    | [There is already 'gatheringController' bean method 에러 발생](profile/docs/troubleshooting/backend/There_is_already'gatheringController_bean_method_에러_발생.md)                                                              |
-| 13 | 박강락    | [Unsupported Media Type, Content-Type 'application/octet-stream' is not supported](profile/docs/troubleshooting/backend/Unsupported_Media_Type,Content_Type'application_octet-stream'_is_not_supported.md)              |
-| 14 | 박지은    | [websocket postman으로 연결 안됨](profile/docs/troubleshooting/backend/websocket_postman으로_연결_안됨.md)                                                                                                                          |
-| 15 | 박강락    | [yml 설정파일 케이스 오류](profile/docs/troubleshooting/backend/yml_설정파일_케이스_오류.md)                                                                                                                                              |
-| 16 | 박지은    | [리다이렉션 횟수가 너무 많습니다.](profile/docs/troubleshooting/backend/리다이렉션_횟수가_너무_많습니다..md)                                                                                                                                        |
-| 17 | 임국희    | [서비스 로직에서 N+1문제 발생](profile/docs/troubleshooting/backend/서비스_로직에서_N+1문제_발생.md)                                                                                                                                          |
-| 18 | 임국희    | [스프링 시큐리티가 적용된 앱의 유닛 테스트](profile/docs/troubleshooting/backend/스프링_시큐리티가_적용된_앱의_유닛_테스트.md)                                                                                                                              |
-| 19 | 박강락    | [유효성검사 어노테이션 동작안함](profile/docs/troubleshooting/backend/유효성검사_어노테이션_동작안함.md)                                                                                                                                            |
-| 20 | 임국희    | [젠킨스 서버가 주기적으로 정지되는 문제](profile/docs/troubleshooting/backend/젠킨스_서버가_주기적으로_정지되는_문제.md)                                                                                                                                  |
-| 21 | 박강락    | [클라이언트 String content 데이터 요청시 에러발생](profile/docs/troubleshooting/backend/클라이언트_String_content_데이터_요청시_에러발생.md)                                                                                                          |
-| 22 | 박지은    | [현재 로그인 회원 정보 가져오기](profile/docs/troubleshooting/backend/현재_로그인_회원_정보_가져오기.md)                                                                                                                                          |
+| 1  | 박지은    | [Access-Control-Expose-Headers](profile/docs/troubleshooting/backend/doc/Access-Control-Expose-Headers.md)                                                                                                                  |
+| 2  | 박강락    | [Content-Type ‘application/octet-stream’ is not supported](profile/docs/troubleshooting/backend/doc/Content-Type_‘application_octet-stream’_is_not_supported.md)                                                            |
+| 3  | 임국희    | [CORS 정책에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/doc/CORS_정책에_의한_API_호출_불가_문제.md)                                                                                                                            |
+| 4  | 박강락    | [docker desktop 엘라스틱 이미지 설치 후 동작안함](profile/docs/troubleshooting/backend/doc/docker_desktop_엘라스틱_이미지_설치_후_동작안함.md)                                                                                                          |
+| 5  | 임국희    | [Entity 수정 후 INSERT문 실행이 되지 않는 문제](profile/docs/troubleshooting/backend/doc/Entity_수정_후_INSERT문_실행이_되지_않는_문제.md)                                                                                                            |
+| 6  | 박강락    | [Entity를 DB에서 읽어데이터, 회원 Entity 조회를 DB에 불필요한 요청](profile/docs/troubleshooting/backend/doc/Entity를_DB에서_읽어데이터,_회원_Entity_조회를_DB에_불필요한_요청.md)                                                                                  |
+| 7  | 박강락    | [Error creating bean with name 's3Config': Injection of autowired dependencies failed 에러](profile/docs/troubleshooting/backend/doc/Error_creating_bean_with_name's3Config_Injection_of_autowired_dependencies_failed_에러.md) |
+| 8  | 박강락    | [Error: listen EADDRINUSE: address already in use :::80](profile/docs/troubleshooting/backend/doc/Error_listen_EADDRINUSE_address_already_in_use_80.md)                                                                     |
+| 9  | 임국희    | [Mixed Content 에러에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/doc/Mixed_Content_에러에_의한_API_호출_불가_문제.md)                                                                                                          |
+| 10 | 박지은    | [Mockito cannot mock/spy because: final class](profile/docs/troubleshooting/backend/doc/Mockito_cannot_mock_spy_because__final_class.md)                                                                                    |
+| 11 | 박강락    | [PuTTY로 EC2 인스턴스 접속 시도 시, No supported authentication methods available](profile/docs/troubleshooting/backend/doc/PuTTY로_EC2_인스턴스_접속_시도_시_No_supported_authentication_methods_available.md)                                 |
+| 12 | 박강락    | [There is already 'gatheringController' bean method 에러 발생](profile/docs/troubleshooting/backend/doc/There_is_already'gatheringController_bean_method_에러_발생.md)                                                              |
+| 13 | 박강락    | [Unsupported Media Type, Content-Type 'application/octet-stream' is not supported](profile/docs/troubleshooting/backend/doc/Unsupported_Media_Type,Content_Type'application_octet-stream'_is_not_supported.md)              |
+| 14 | 박지은    | [websocket postman으로 연결 안됨](profile/docs/troubleshooting/backend/doc/websocket_postman으로_연결_안됨.md)                                                                                                                          |
+| 15 | 박강락    | [yml 설정파일 케이스 오류](profile/docs/troubleshooting/backend/doc/yml_설정파일_케이스_오류.md)                                                                                                                                              |
+| 16 | 박지은    | [리다이렉션 횟수가 너무 많습니다.](profile/docs/troubleshooting/backend/doc/리다이렉션_횟수가_너무_많습니다..md)                                                                                                                                        |
+| 17 | 임국희    | [서비스 로직에서 N+1문제 발생](profile/docs/troubleshooting/backend/doc/서비스_로직에서_N+1문제_발생.md)                                                                                                                                          |
+| 18 | 임국희    | [스프링 시큐리티가 적용된 앱의 유닛 테스트](profile/docs/troubleshooting/backend/doc/스프링_시큐리티가_적용된_앱의_유닛_테스트.md)                                                                                                                              |
+| 19 | 박강락    | [유효성검사 어노테이션 동작안함](profile/docs/troubleshooting/backend/doc/유효성검사_어노테이션_동작안함.md)                                                                                                                                            |
+| 20 | 임국희    | [젠킨스 서버가 주기적으로 정지되는 문제](profile/docs/troubleshooting/backend/doc/젠킨스_서버가_주기적으로_정지되는_문제.md)                                                                                                                                  |
+| 21 | 박강락    | [클라이언트 String content 데이터 요청시 에러발생](profile/docs/troubleshooting/backend/doc/클라이언트_String_content_데이터_요청시_에러발생.md)                                                                                                          |
+| 22 | 박지은    | [현재 로그인 회원 정보 가져오기](profile/docs/troubleshooting/backend/doc/현재_로그인_회원_정보_가져오기.md)                                                                                                                                          |
 
 ### Frontend
 | 순번  | 담당자   | 내용                                                                        |
 |-----|-------|---------------------------------------------------------------------------|
-| 1   | 이수광   | [API 통신 에러](profile/docs/troubleshooting/frontend/API_통신_에러.md)           |
-| 2   | 우승찬   | [CORS 오류](profile/docs/troubleshooting/frontend/CORS_오류.md)               |
-| 4   | 우승찬   | [MSW 설정](profile/docs/troubleshooting/frontend/MSW_설정.md)                 |
-| 6   | 우승찬   | [vercel 배포](profile/docs/troubleshooting/frontend/vercel_배포.md)           |
-| 3   | 이수광   | [로컬 데이터 공유 오류](profile/docs/troubleshooting/frontend/로컬_데이터_공유_오류.md)     |
-| 5   | 이수광   | [우당탕탕 KCP 결제 소동](profile/docs/troubleshooting/frontend/우당탕탕_KCP_결제_소동.md) |
+| 1   | 이수광   | [API 통신 에러](profile/docs/troubleshooting/frontend/doc/API_통신_에러.md)           |
+| 2   | 우승찬   | [CORS 오류](profile/docs/troubleshooting/frontend/doc/CORS_오류.md)               |
+| 4   | 우승찬   | [MSW 설정](profile/docs/troubleshooting/frontend/doc/MSW_설정.md)                 |
+| 6   | 우승찬   | [vercel 배포](profile/docs/troubleshooting/frontend/doc/vercel_배포.md)           |
+| 3   | 이수광   | [로컬 데이터 공유 오류](profile/docs/troubleshooting/frontend/doc/로컬_데이터_공유_오류.md)     |
+| 5   | 이수광   | [우당탕탕 KCP 결제 소동](profile/docs/troubleshooting/frontend/doc/우당탕탕_KCP_결제_소동.md) |
 
 ## 🐥 멤버 및 프로젝트 소감
 
