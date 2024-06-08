@@ -116,7 +116,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="2">인증/인가</td>
+    <td rowspan="3">인증/인가</td>
     <td><img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white" alt="OAuth2" /></td>
     <td></td>
   </tr>
@@ -125,13 +125,21 @@
     <td></td>
   </tr>
   <tr>
+    <td>nurigo</td>
+    <td></td>
+  </tr>
+  <tr>
     <td rowspan="1">컨테이너화 도구</td>
     <td><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" /></td>
     <td></td>
   </tr>
   <tr>
-    <td rowspan="3">데이터베이스</td>
+    <td rowspan="4">데이터베이스</td>
     <td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/H2-59666C?style=flat&logoColor=white" alt="H2" /></td>
     <td></td>
   </tr>
   <tr>
@@ -169,6 +177,7 @@
     <td></td>
   </tr>
 </table>
+
 
 
 ### 📚 Frontend
