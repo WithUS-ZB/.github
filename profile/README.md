@@ -51,9 +51,6 @@
 
 ![아키텍처](/profile/img/아키텍처.png)
 
-## ⭐ CI/CD
-
-![CI/CD](/profile/img/ci-cd.png)
 
 ## ⭐ 기술 스택
 
@@ -258,9 +255,6 @@
 ### WebSocketInterceptor
 ![WebSocketInterceptor.png](/profile/img/web-socket-interceptor.png)
 
-## ⭐ ERD
-![ERD](/profile/img/erd.png)
-
 ## ⭐ 트러블슈팅
 ### Backend
 | 순번 | 담당자    | 내용                                                                                                                                                                                                                      |
@@ -297,6 +291,13 @@
 | 6   | 우승찬   | [vercel 배포](profile/docs/troubleshooting/frontend/doc/vercel_배포.md)           |
 | 3   | 이수광   | [로컬 데이터 공유 오류](profile/docs/troubleshooting/frontend/doc/로컬_데이터_공유_오류.md)     |
 | 5   | 이수광   | [우당탕탕 KCP 결제 소동](profile/docs/troubleshooting/frontend/doc/우당탕탕_KCP_결제_소동.md) |
+
+## ⭐ ERD
+![ERD](/profile/img/erd.png)
+
+## ⭐ CI/CD
+
+![CI/CD](/profile/img/ci-cd.png)
 
 ## 🐥 멤버 및 프로젝트 소감
 
