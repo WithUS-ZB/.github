@@ -59,39 +59,138 @@
 
 ### 📚 Frontend
 
-| 분류               | 기술                                                                                                          | 설명                                                                     |
-|------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| **프로그래밍 언어**     | ![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white)    | JavaScript는 웹 개발에 주로 사용되는 스크립팅 언어로, 동적 콘텐츠 생성과 사용자 인터페이스를 구현할 수 있습니다.  |
-| **프레임워크/라이브러리**  | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white)                   | React는 사용자 인터페이스를 구축하기 위한 자바스크립트 라이브러리로, 컴포넌트 기반의 개발을 지원합니다.           |
-|                  | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white)                      | Vite는 빠른 개발 환경을 제공하는 프론트엔드 빌드 도구로, 모듈 번들러 역할을 합니다.                     |
-|                  | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white)                   | Axios는 HTTP 클라이언트 라이브러리로, 브라우저와 Node.js에서 비동기 HTTP 요청을 처리할 수 있습니다.     |
-|                  | ![CSS Modules](https://img.shields.io/badge/CSS--Modules-000000?style=flat&logo=cssmodules&logoColor=white) | CSS Modules는 CSS 파일을 모듈화하여 로컬 범위의 CSS를 적용할 수 있게 하는 기술입니다.              |
-|                  | ![StompJS](https://img.shields.io/badge/StompJS-353E58?style=flat&logoColor=white)                          | StompJS는 STOMP 프로토콜을 사용하여 웹소켓을 통한 실시간 통신을 구현할 수 있게 하는 자바스크립트 라이브러리입니다. |
-| **API**          | ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=white)                   | Kakao API는 카카오 플랫폼의 다양한 기능(지도, 로그인, 결제 등)을 애플리케이션에 통합할 수 있게 하는 API입니다. |
-| **디자인 도구**       | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)                   | Figma는 UI/UX 디자인을 위한 클라우드 기반의 디자인 도구로, 실시간 협업이 가능합니다.                  |
-| **개발 도구**        | ![JSON server](https://img.shields.io/badge/JSON--server-382923?style=flat&logoColor=white)                 | JSON Server는 간단한 JSON 파일을 기반으로 가짜 REST API를 생성할 수 있는 도구입니다.            |
-
+<table>
+  <tr>
+    <th>분류</th>
+    <th>기술</th>
+    <th>활용</th>
+  </tr>
+  <tr>
+    <td rowspan="1">프로그래밍 언어</td>
+    <td><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white" alt="Javascript" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">프레임워크/라이브러리</td>
+    <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" alt="React" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white" alt="Vite" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white" alt="Axios" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/CSS--Modules-000000?style=flat&logo=cssmodules&logoColor=white" alt="CSS Modules" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/StompJS-353E58?style=flat&logoColor=white" alt="StompJS" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">API</td>
+    <td><img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=white" alt="Kakao" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">디자인 도구</td>
+    <td><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">개발 도구</td>
+    <td><img src="https://img.shields.io/badge/JSON--server-382923?style=flat&logoColor=white" alt="JSON server" /></td>
+    <td></td>
+  </tr>
+</table>
 
 ### 📚 Backend
 
-| 분류               | 기술                                                                                                                     | 설명                                                                                     |
-|------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **프로그래밍 언어**     | ![Java](https://img.shields.io/badge/java-007396?style=flat&logo=Java&logoColor=white)                                 | 자바는 객체 지향 프로그래밍 언어로, 다양한 플랫폼에서 실행 가능한 애플리케이션을 개발하는 데 사용됩니다.                            |
-| **빌드 도구**        | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white)                           | Gradle은 오픈 소스 빌드 자동화 도구로, JVM 언어 프로젝트의 빌드, 테스트, 배포를 지원합니다.                             |
-| **프레임워크**        | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white)             | Spring Boot는 스프링 프레임워크 기반의 애플리케이션을 간편하게 만들고 배포할 수 있게 도와주는 프레임워크입니다.                    |
-|                  | ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white) | Spring Security는 스프링 애플리케이션의 인증과 권한 부여를 제공하는 강력한 보안 프레임워크입니다.                          |
-| **ORM**          | ![JPA(Hibernate)](https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white)        | JPA(Hibernate)는 자바 객체와 관계형 데이터베이스 간의 매핑을 처리하는 ORM(Object-Relational Mapping) 프레임워크입니다. |
-| **테스트 도구**       | ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white)                           | JUnit 5는 자바 애플리케이션을 위한 테스트 프레임워크로, 단위 테스트와 통합 테스트를 지원합니다.                              |
-|                  | ![Mockito](https://img.shields.io/badge/Mockito-3FCF8E?style=flat&logoColor=white)                                     | Mockito는 자바 애플리케이션에서 테스트를 위한 목 객체(Mock Object)를 생성하는 프레임워크입니다.                         |
-| **메시징 프로토콜**     | ![STOMP](https://img.shields.io/badge/STOMP-353E58?style=flat&logoColor=white)                                         | STOMP는 텍스트 기반의 메시지 프로토콜로, 웹 소켓을 통해 브라우저와 서버 간의 실시간 통신을 지원합니다.                          |
-| **인증/인가**        | ![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white)                                       | OAuth2는 사용자 인증 및 권한 부여를 위한 표준 프로토콜로, 토큰 기반의 인증 방식을 제공합니다.                              |
-| **컨테이너화 도구**     | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)                           | Docker는 애플리케이션을 컨테이너화하여 일관된 환경에서 실행할 수 있게 하는 플랫폼입니다.                                   |
-| **데이터베이스**       | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)                              | MySQL은 오픈 소스 관계형 데이터베이스 관리 시스템(RDBMS)으로, 데이터를 효율적으로 저장하고 검색할 수 있습니다.                   |
-|                  | ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)      | Elasticsearch는 분산 검색 엔진으로, 실시간으로 데이터를 검색하고 분석할 수 있게 합니다.                               |
-|                  | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)                              | Redis는 오픈 소스 인메모리 데이터 구조 저장소로, 캐시, 메시지 브로커 및 데이터 저장소로 사용됩니다.                           |
-| **클라우드 서비스**     | ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)                              | Amazon EC2는 확장 가능한 컴퓨팅 용량을 제공하는 아마존 웹 서비스(AWS)의 클라우드 컴퓨팅 서비스입니다.                       |
-|                  | ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white)                              | Amazon RDS는 관계형 데이터베이스를 클라우드에서 손쉽게 설정, 운영 및 확장할 수 있게 하는 관리형 데이터베이스 서비스입니다.             |
-|                  | ![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)                                 | Amazon S3는 인터넷 스토리지 서비스로, 대규모 데이터를 안전하게 저장하고 관리할 수 있습니다.                               |
+<table>
+  <tr>
+    <th>분류</th>
+    <th>기술</th>
+    <th>활용</th>
+  </tr>
+  <tr>
+    <td rowspan="1">프로그래밍 언어</td>
+    <td><img src="https://img.shields.io/badge/java-007396?style=flat&logo=Java&logoColor=white" alt="Java" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">빌드 도구</td>
+    <td><img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white" alt="Gradle" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">프레임워크</td>
+    <td><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" alt="Spring Boot" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white" alt="Spring Security" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">ORM</td>
+    <td><img src="https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white" alt="JPA(Hibernate)" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">테스트 도구</td>
+    <td><img src="https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white" alt="JUnit5" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Mockito-3FCF8E?style=flat&logoColor=white" alt="Mockito" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">메시징 프로토콜</td>
+    <td><img src="https://img.shields.io/badge/STOMP-353E58?style=flat&logoColor=white" alt="STOMP" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">인증/인가</td>
+    <td><img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white" alt="OAuth2" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="1">컨테이너화 도구</td>
+    <td><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">데이터베이스</td>
+    <td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" alt="Elasticsearch" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">클라우드 서비스</td>
+    <td><img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white" alt="EC2" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white" alt="RDS" /></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white" alt="S3" /></td>
+    <td></td>
+  </tr>
+</table>
 
 ## ⭐ 기능
 | 기능        | 내용                                                           |
