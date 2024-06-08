@@ -8,7 +8,7 @@
 
 with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중점을 두고 있습니다.
 
-![UML](/profile/img/UML.png)
+![UML](/profile/img/uml.png)
 
 회원 관리를 통해 신원 확인을 간편하게 하고, 사용자들은 모임 및 이벤트를 개설하여 공유할 수 있습니다.
 실시간 채팅 기능을 통해 참여자들 간의 원활한 소통이 가능하며, 마이페이지에서 개인 설정과 모임 관리가 편리하게 이루어집니다.
@@ -44,11 +44,11 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 
 ## ⭐ 아키텍처
 
-![img.png](/profile/img/아키텍처.png)
+![아키텍처](/profile/img/아키텍처.png)
 
 ## ⭐ CI/CD
 
-![아키텍처](/profile/img/CICD.png)
+![CI/CD](/profile/img/ci-cd.png)
 
 ## ⭐ 기술 스택
 
@@ -66,7 +66,7 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 
 ### 📚 Backend
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white)
+![Java](https://img.shields.io/badge/java-007396?style=flat&logo=Java&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white)
@@ -83,16 +83,32 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)
 
-## ⭐ 주요 기능
+## ⭐ 기능
+| 기능        | 내용                                                           |
+|-----------|--------------------------------------------------------------|
+| 홈         | ✅ 인기 이벤트 및 모임 </br>✅ 최신 지역축제 </br>                           |
+| 회원가입/로그인  | ✅ 일반 회원가입 </br>✅ 소셜로그인(카카오)                                  |
+| 마이페이지     | ✅ 회원 정보 변경 </br>✅ 휴대폰 인증 </br>✅ 멤버쉽 결제 </br>✅ 내가 신청/관심등록한 목록 |
+| 게시글 작성    | ✅ 모집글 작성                                                     |
+| 상세보기      | ✅ 모집 정보 조회 </br>✅ 모임 신청 및 취소 기능 </br>✅ 위치 지도 조회 </br>✅ 댓글 기능 |
+| 게시글 리스트   | ✅ 전체/이벤트/모임 리스트 조회 </br>✅ 전체/이벤트/모임 검색 </br>✅ 좋아요 기능         |
+| 이벤트/모임 관리 | ✅ 개설한 게시글의 신청 현황 확인 및 관리                                     |
+| 알림        | ✅ 신청한 모임의 모집날 1일전 알림                                         | 
+| 부가기능      | ✅ 다크모드 </br>✅ 반응형                                            |
+
 
 ## ⭐ 적용한 디자인 패턴
+### ParticipationService 
+![ParticipationService](img/participation-service.png)
+
+### WebSocketInterceptor
+![WebSocketInterceptor.png](img/web-socket-interceptor.png)
 
 ## ⭐ ERD
+![ERD](img/erd.png)
 
 ## ⭐ 트러블슈팅
-
 ### Backend
-
 | 순번 | 담당자    | 내용                                                                                                                                                                                                                      |
 |----|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 박지은    | [Access-Control-Expose-Headers](profile/docs/troubleshooting/backend/Access-Control-Expose-Headers.md)                                                                                                                  |
@@ -100,27 +116,25 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 | 3  | 임국희    | [CORS 정책에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/CORS_정책에_의한_API_호출_불가_문제.md)                                                                                                                            |
 | 4  | 박강락    | [docker desktop 엘라스틱 이미지 설치 후 동작안함](profile/docs/troubleshooting/backend/docker_desktop_엘라스틱_이미지_설치_후_동작안함.md)                                                                                                          |
 | 5  | 임국희    | [Entity 수정 후 INSERT문 실행이 되지 않는 문제](profile/docs/troubleshooting/backend/Entity_수정_후_INSERT문_실행이_되지_않는_문제.md)                                                                                                            |
-| 6  | 박강락    | [Entity 클래스 final 키워드 사용불가](profile/docs/troubleshooting/backend/Entity_클래스_final_키워드_사용불가.md)                                                                                                                          |
-| 7  | 박강락    | [Entity를 DB에서 읽어데이터, 회원 Entity 조회를 DB에 불필요한 요청](profile/docs/troubleshooting/backend/Entity를_DB에서_읽어데이터,_회원_Entity_조회를_DB에_불필요한_요청.md)                                                                                  |
-| 8  | 박강락    | [Error creating bean with name 's3Config': Injection of autowired dependencies failed 에러](profile/docs/troubleshooting/backend/Error_creating_bean_with_name's3Config_Injection_of_autowired_dependencies_failed_에러.md) |
-| 9  | 박강락    | [Error: listen EADDRINUSE: address already in use :::80](profile/docs/troubleshooting/backend/Error_listen_EADDRINUSE_address_already_in_use_80.md)                                                                     |
-| 10 | 임국희    | [Mixed Content 에러에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/Mixed_Content_에러에_의한_API_호출_불가_문제.md)                                                                                                          |
-| 11 | 박지은    | [Mockito cannot mock/spy because: final class](profile/docs/troubleshooting/backend/Mockito_cannot_mock_spy_because__final_class.md)                                                                                    |
-| 12 | 박강락    | [PuTTY로 EC2 인스턴스 접속 시도 시, No supported authentication methods available](profile/docs/troubleshooting/backend/PuTTY로_EC2_인스턴스_접속_시도_시_No_supported_authentication_methods_available.md)                                 |
-| 13 | 박강락    | [There is already 'gatheringController' bean method 에러 발생](profile/docs/troubleshooting/backend/There_is_already'gatheringController_bean_method_에러_발생.md)                                                              |
-| 14 | 박강락    | [Unsupported Media Type, Content-Type 'application/octet-stream' is not supported](profile/docs/troubleshooting/backend/Unsupported_Media_Type,Content_Type'application_octet-stream'_is_not_supported.md)              |
-| 15 | 박지은    | [websocket postman으로 연결 안됨](profile/docs/troubleshooting/backend/websocket_postman으로_연결_안됨.md)                                                                                                                          |
-| 16 | 박강락    | [yml 설정파일 케이스 오류](profile/docs/troubleshooting/backend/yml_설정파일_케이스_오류.md)                                                                                                                                              |
-| 17 | 박지은    | [리다이렉션 횟수가 너무 많습니다.](profile/docs/troubleshooting/backend/리다이렉션_횟수가_너무_많습니다..md)                                                                                                                                        |
-| 18 | 임국희    | [서비스 로직에서 N+1문제 발생](profile/docs/troubleshooting/backend/서비스_로직에서_N+1문제_발생.md)                                                                                                                                          |
-| 19 | 임국희    | [스프링 시큐리티가 적용된 앱의 유닛 테스트](profile/docs/troubleshooting/backend/스프링_시큐리티가_적용된_앱의_유닛_테스트.md)                                                                                                                              |
-| 20 | 박강락    | [유효성검사 어노테이션 동작안함](profile/docs/troubleshooting/backend/유효성검사_어노테이션_동작안함.md)                                                                                                                                            |
-| 21 | 임국희    | [젠킨스 서버가 주기적으로 정지되는 문제](profile/docs/troubleshooting/backend/젠킨스_서버가_주기적으로_정지되는_문제.md)                                                                                                                                  |
-| 22 | 박강락    | [클라이언트 String content 데이터 요청시 에러발생](profile/docs/troubleshooting/backend/클라이언트_String_content_데이터_요청시_에러발생.md)                                                                                                          |
-| 23 | 박지은    | [현재 로그인 회원 정보 가져오기](profile/docs/troubleshooting/backend/현재_로그인_회원_정보_가져오기.md)                                                                                                                                          |
+| 6  | 박강락    | [Entity를 DB에서 읽어데이터, 회원 Entity 조회를 DB에 불필요한 요청](profile/docs/troubleshooting/backend/Entity를_DB에서_읽어데이터,_회원_Entity_조회를_DB에_불필요한_요청.md)                                                                                  |
+| 7  | 박강락    | [Error creating bean with name 's3Config': Injection of autowired dependencies failed 에러](profile/docs/troubleshooting/backend/Error_creating_bean_with_name's3Config_Injection_of_autowired_dependencies_failed_에러.md) |
+| 8  | 박강락    | [Error: listen EADDRINUSE: address already in use :::80](profile/docs/troubleshooting/backend/Error_listen_EADDRINUSE_address_already_in_use_80.md)                                                                     |
+| 9  | 임국희    | [Mixed Content 에러에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/Mixed_Content_에러에_의한_API_호출_불가_문제.md)                                                                                                          |
+| 10 | 박지은    | [Mockito cannot mock/spy because: final class](profile/docs/troubleshooting/backend/Mockito_cannot_mock_spy_because__final_class.md)                                                                                    |
+| 11 | 박강락    | [PuTTY로 EC2 인스턴스 접속 시도 시, No supported authentication methods available](profile/docs/troubleshooting/backend/PuTTY로_EC2_인스턴스_접속_시도_시_No_supported_authentication_methods_available.md)                                 |
+| 12 | 박강락    | [There is already 'gatheringController' bean method 에러 발생](profile/docs/troubleshooting/backend/There_is_already'gatheringController_bean_method_에러_발생.md)                                                              |
+| 13 | 박강락    | [Unsupported Media Type, Content-Type 'application/octet-stream' is not supported](profile/docs/troubleshooting/backend/Unsupported_Media_Type,Content_Type'application_octet-stream'_is_not_supported.md)              |
+| 14 | 박지은    | [websocket postman으로 연결 안됨](profile/docs/troubleshooting/backend/websocket_postman으로_연결_안됨.md)                                                                                                                          |
+| 15 | 박강락    | [yml 설정파일 케이스 오류](profile/docs/troubleshooting/backend/yml_설정파일_케이스_오류.md)                                                                                                                                              |
+| 16 | 박지은    | [리다이렉션 횟수가 너무 많습니다.](profile/docs/troubleshooting/backend/리다이렉션_횟수가_너무_많습니다..md)                                                                                                                                        |
+| 17 | 임국희    | [서비스 로직에서 N+1문제 발생](profile/docs/troubleshooting/backend/서비스_로직에서_N+1문제_발생.md)                                                                                                                                          |
+| 18 | 임국희    | [스프링 시큐리티가 적용된 앱의 유닛 테스트](profile/docs/troubleshooting/backend/스프링_시큐리티가_적용된_앱의_유닛_테스트.md)                                                                                                                              |
+| 19 | 박강락    | [유효성검사 어노테이션 동작안함](profile/docs/troubleshooting/backend/유효성검사_어노테이션_동작안함.md)                                                                                                                                            |
+| 20 | 임국희    | [젠킨스 서버가 주기적으로 정지되는 문제](profile/docs/troubleshooting/backend/젠킨스_서버가_주기적으로_정지되는_문제.md)                                                                                                                                  |
+| 21 | 박강락    | [클라이언트 String content 데이터 요청시 에러발생](profile/docs/troubleshooting/backend/클라이언트_String_content_데이터_요청시_에러발생.md)                                                                                                          |
+| 22 | 박지은    | [현재 로그인 회원 정보 가져오기](profile/docs/troubleshooting/backend/현재_로그인_회원_정보_가져오기.md)                                                                                                                                          |
 
 ### Frontend
-
 | 순번  | 담당자   | 내용                                                                        |
 |-----|-------|---------------------------------------------------------------------------|
 | 1   | 이수광   | [API 통신 에러](profile/docs/troubleshooting/frontend/API_통신_에러.md)           |
@@ -146,5 +160,4 @@ with me는 플랫폼은 지역 문화와 이벤트 동행자를 찾는 데 중�
 - 기능
 - ERD
 - 디자인패턴
-- 트러블슈팅 각각 파일
 -->
