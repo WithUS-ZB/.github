@@ -48,7 +48,7 @@
 
 
 ## ⭐ 아키텍처
-
+![아키텍처](/profile/img/architecture.png)
 
 
 ## ⭐ 기술 스택
