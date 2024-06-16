@@ -79,23 +79,19 @@
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=SpringSecurity&logoColor=white" alt="Spring Security" /></td>
-    <td></td>
+    <td>보안</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/WebSocket-333333?style=flat&logo=WebSocket&logoColor=white" alt="WebSocket" /></td>
-    <td></td>
+    <td>채팅</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/SSE-333333?style=flat&logoColor=white" alt="SSE" /></td>
-    <td></td>
+    <td>알림</td>
   </tr>
   <tr>
-    <td rowspan="2">ORM</td>
+    <td rowspan="1">ORM</td>
     <td><img src="https://img.shields.io/badge/JPA(Hibernate)-59666C?style=flat&logo=hibernate&logoColor=white" alt="JPA(Hibernate)" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/H2-59666C?style=flat&logoColor=white" alt="H2" /></td>
     <td></td>
   </tr>
   <tr>
@@ -110,20 +106,20 @@
   <tr>
     <td rowspan="1">메시징 프로토콜</td>
     <td><img src="https://img.shields.io/badge/STOMP-353E58?style=flat&logoColor=white" alt="STOMP" /></td>
-    <td></td>
+    <td>채팅</td>
   </tr>
   <tr>
     <td rowspan="3">인증/인가</td>
     <td><img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat&logoColor=white" alt="OAuth2" /></td>
-    <td></td>
+    <td>로그인</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=JSON%20Web%20Tokens&logoColor=white" alt="JWT" /></td>
-    <td></td>
+    <td>로그인</td>
   </tr>
   <tr>
     <td>nurigo</td>
-    <td></td>
+    <td>휴대폰 인증</td>
   </tr>
   <tr>
     <td rowspan="1">컨테이너화 도구</td>
@@ -131,7 +127,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="4">데이터베이스</td>
+    <td rowspan="3">데이터베이스</td>
     <td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" /></td>
     <td></td>
   </tr>
@@ -140,37 +136,34 @@
     <td></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" alt="Elasticsearch" /></td>
-    <td></td>
+    <td><img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" /></td>
+    <td>캐시</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" /></td>
-    <td></td>
+    <td rowspan="1">검색 엔진</td>
+    <td><img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" alt="Elasticsearch" /></td>
+    <td>검색</td>
   </tr>
   <tr>
     <td rowspan="4">클라우드 서비스</td>
     <td><img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white" alt="EC2" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white" alt="RDS" /></td>
-    <td></td>
+    <td>서버</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white" alt="S3" /></td>
-    <td></td>
+    <td>파일 저장</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/Route%2053-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="Route 53" /></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="2">CI/CD</td>
-    <td><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white" alt="Jenkins" /></td>
-    <td></td>
+    <td>도메인 연결</td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat&logo=Oracle&logoColor=white" alt="Oracle Cloud" /></td>
+    <td>CI/CD 서버</td>
+  </tr>
+  <tr>
+    <td rowspan="1">CI/CD</td>
+    <td><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white" alt="Jenkins" /></td>
     <td></td>
   </tr>
 </table>
