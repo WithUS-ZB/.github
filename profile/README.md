@@ -27,6 +27,8 @@
 ![Jun-01-2024 03-42-32](https://github.com/WithUS-ZB/.github/assets/148526219/1581ae53-f5b3-435e-ad6e-0bbeacd9b15e) <br/>
 [배포된 프로젝트 사이트 바로가기](https://withme-xi.vercel.app/)
 
+- 현재 백엔드 서버는 중단되었습니다
+
 ## Git Commit Convention
 ```
 ✨ Features: 새기능
