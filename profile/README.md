@@ -253,8 +253,8 @@
 ### Backend
 | 순번 | 담당자    | 내용                                                                                                                                                                                                                      |
 |----|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | 박지은    | [Access-Control-Expose-Headers](profile/docs/troubleshooting/backend/doc/Access-Control-Expose-Headers.md)                                                                                                                  |
-| 2  | 박강락    | [Content-Type ‘application/octet-stream’ is not supported](profile/docs/troubleshooting/backend/doc/Content-Type_‘application_octet-stream’_is_not_supported.md)                                                            |
+| 1  | 박지은    | [Access-Control-Expose-Headers](/docs/troubleshooting/backend/doc/Access-Control-Expose-Headers.md)                                                                                                                  |
+| 2  | 박강락    | [Content-Type ‘application/octet-stream’ is not supported](/docs/troubleshooting/backend/doc/Content-Type_‘application_octet-stream’_is_not_supported.md)                                                            |
 | 3  | 임국희    | [CORS 정책에 의한 API 호출 불가 문제](profile/docs/troubleshooting/backend/doc/CORS_정책에_의한_API_호출_불가_문제.md)                                                                                                                            |
 | 4  | 박강락    | [docker desktop 엘라스틱 이미지 설치 후 동작안함](profile/docs/troubleshooting/backend/doc/docker_desktop_엘라스틱_이미지_설치_후_동작안함.md)                                                                                                          |
 | 5  | 임국희    | [Entity 수정 후 INSERT문 실행이 되지 않는 문제](profile/docs/troubleshooting/backend/doc/Entity_수정_후_INSERT문_실행이_되지_않는_문제.md)                                                                                                            |
