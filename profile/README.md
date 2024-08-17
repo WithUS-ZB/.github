@@ -279,12 +279,12 @@
 ### Frontend
 | 순번  | 담당자   | 내용                                                                        |
 |-----|-------|---------------------------------------------------------------------------|
-| 1   | 이수광   | [API 통신 에러](profile/docs/troubleshooting/frontend/doc/API_통신_에러.md)           |
-| 2   | 우승찬   | [CORS 오류](profile/docs/troubleshooting/frontend/doc/CORS_오류.md)               |
-| 4   | 우승찬   | [MSW 설정](profile/docs/troubleshooting/frontend/doc/MSW_설정.md)                 |
-| 6   | 우승찬   | [vercel 배포](profile/docs/troubleshooting/frontend/doc/vercel_배포.md)           |
-| 3   | 이수광   | [로컬 데이터 공유 오류](profile/docs/troubleshooting/frontend/doc/로컬_데이터_공유_오류.md)     |
-| 5   | 이수광   | [우당탕탕 KCP 결제 소동](profile/docs/troubleshooting/frontend/doc/우당탕탕_KCP_결제_소동.md) |
+| 1   | 이수광   | [API 통신 에러](/profile/docs/troubleshooting/frontend/doc/API_통신_에러.md)           |
+| 2   | 우승찬   | [CORS 오류](/profile/docs/troubleshooting/frontend/doc/CORS_오류.md)               |
+| 4   | 우승찬   | [MSW 설정](/profile/docs/troubleshooting/frontend/doc/MSW_설정.md)                 |
+| 6   | 우승찬   | [vercel 배포](/profile/docs/troubleshooting/frontend/doc/vercel_배포.md)           |
+| 3   | 이수광   | [로컬 데이터 공유 오류](/profile/docs/troubleshooting/frontend/doc/로컬_데이터_공유_오류.md)     |
+| 5   | 이수광   | [우당탕탕 KCP 결제 소동](/profile/docs/troubleshooting/frontend/doc/우당탕탕_KCP_결제_소동.md) |
 
 ## ⭐ ERD
 ![ERD](/profile/img/erd.png)
