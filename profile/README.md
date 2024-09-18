@@ -2,14 +2,18 @@
 ![template](https://github.com/WithUS-ZB/.github/assets/148526219/cb33ffe8-996e-4642-9bfc-7fc2333d9707)
 ### 📌 With Me는 지역문화와 이벤트 및 모임 동행자를 찾는 커뮤니티 프로젝트입니다.
 
+🔗 [With Me 배포 사이트](https://withme-xi.vercel.app/)
+🔗 [With Me 소개 브로셔](https://www.notion.so/With-Me-b3c254270fd1423cbbddb4251dee652d)
+🔗 [프로젝트 시연 영상](https://youtu.be/ORR7xq-WbJk?si=I944NfFVDioyR_NQ)
+🔗 [프론트엔드 Github 보기](https://github.com/WithUS-ZB/withme-fe)
+🔗 [백엔드 Github 보기](https://github.com/WithUS-ZB/withme-be)
+<br/> * 현재 백엔드 서버는 중단되었습니다.
 
 > 자영업자나 소상공인이 이벤트를 개최하여 홍보와 상업 시장을 지원할 수 있습니다. <br/>
 > 사용자들은 주변에서 열리는 다양한 이벤트를 쉽게 찾고 모임을 개설하여 쉽게 접하여 즐기고 소통할 수 있는 기회를 제공합니다. <br/>
 > 지역주민들과 관광객들을 대상으로 이벤트를 소개하고 참여할 수 있는 플랫폼을 통해 지역사회의 활성화와 지역경제의 성장에 도움을 줄 수 있습니다.
 
-
-
-<hr/>
+![Jun-01-2024 03-42-32](https://github.com/WithUS-ZB/.github/assets/148526219/1581ae53-f5b3-435e-ad6e-0bbeacd9b15e) <br/>
 
 ### 🌞 UML
 
@@ -18,16 +22,6 @@
 회원 관리를 통해 신원 확인을 간편하게 하고, 사용자들은 모임 및 이벤트를 개설하여 공유할 수 있습니다. <br/>
 실시간 채팅 기능을 통해 참여자들 간의 원활한 소통이 가능하며, 마이페이지에서 개인 설정과 모임 관리가 편리하게 이루어집니다. <br/>
 또한, 알림 기능을 제공하여 개인의 일정을 놓치지 않도록 합니다.
-
-## 🖥️ 시연 영상
-
-[![시연 영상](https://img.youtube.com/vi/ORR7xq-WbJk/0.jpg)](https://youtu.be/ORR7xq-WbJk?si=I944NfFVDioyR_NQ)
-
-## 🌏 프로젝트 배포 사이트
-![Jun-01-2024 03-42-32](https://github.com/WithUS-ZB/.github/assets/148526219/1581ae53-f5b3-435e-ad6e-0bbeacd9b15e) <br/>
-[배포된 프로젝트 사이트 바로가기](https://withme-xi.vercel.app/)
-
-- 현재 백엔드 서버는 중단되었습니다
 
 ## Git Commit Convention
 ```
